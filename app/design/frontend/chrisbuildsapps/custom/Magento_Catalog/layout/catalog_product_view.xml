@@ -1,0 +1,7 @@
+<page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <move element="page.main.title" destination="product.info.main" before="product.info.price" />
+        <move element="product.price.final" destination="product.info.price" before="product.info.stock.sku" />
+        <move element="product.info.details" destination="product.info.main" after="product.info.social" />
+    </body>
+</page>
